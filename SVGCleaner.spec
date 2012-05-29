@@ -3,12 +3,13 @@
 Name:		SVGCleaner
 Summary:	Tool to clean up SVG files
 Version:	0.1
-Release:	0.git%{git}.1
+Release:	0.git%{git}.2
 License:	GPLv3+
 Group:		Graphics
 URL:		https://github.com/RazrFalcon/SVGCleaner
 Source0:	%{name}-%{git}.tar.xz
 BuildRequires:	qt4-devel
+Requires:	p7zip
 
 %description
 Generally, SVG files produced by vector editors contain a lot of unused
