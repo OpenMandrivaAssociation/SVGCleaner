@@ -50,3 +50,14 @@ find . -type f -exec chmod -x {} \;
 %{_iconsdir}/hicolor/scalable/apps/svgcleaner.svg
 %{_datadir}/svgcleaner/
 %doc README
+
+
+%changelog
+* Tue May 29 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.1-0.git20120506.2
++ Revision: 801068
+- require p7zip to open svgz
+
+* Fri May 25 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.1-0.git20120506.1
++ Revision: 800693
+- imported package SVGCleaner
+
