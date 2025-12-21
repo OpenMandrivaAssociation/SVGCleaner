@@ -8,6 +8,7 @@ License:	GPLv3+
 Group:		Graphics
 URL:		https://github.com/RazrFalcon/SVGCleaner
 Source0:	%{name}-%{git}.tar.xz
+BuildRequires:	make
 BuildRequires:	qt4-devel
 Requires:	p7zip
 
